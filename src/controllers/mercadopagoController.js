@@ -16,7 +16,7 @@ export const crearOrden = async (req, res) => {
                 unit_price: 1000
             }
         ],
-        notification_url: 'mp-production-d50c.up.railway.app/notificacionOrden'
+        notification_url: 'https://mp-production-d50c.up.railway.app/notificacionOrden'
     };
 
     (await mercadopago.preferences.create(preference)
